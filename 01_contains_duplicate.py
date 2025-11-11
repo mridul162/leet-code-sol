@@ -1,5 +1,4 @@
 # LeetCode Problem - 217: Contains Duplicate
-
 class Solution:
     def bruteForce(self, nums: list[int]) -> bool: # Time: O(n^2), Space: O(1)
         for i in range(len(nums)):
