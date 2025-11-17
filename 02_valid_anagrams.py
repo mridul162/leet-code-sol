@@ -1,3 +1,6 @@
+# Leet Code 242. Valid Anagram
+# https://leetcode.com/problems/valid-anagram/
+
 class Solution:
     def isAnagram_sorting(self, s: str, t: str) -> bool: # Time: O(nlogn+mlogm), Space: O(n+m)
         if len(s) != len(t):
